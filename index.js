@@ -15,6 +15,8 @@ const logger = require('./middleware/logger');
 app.use(logger);
 app.use('/server-status', require('./routes/server-status'));
 app.use('/math', require('./routes/math'));
+app.use('/dataread', require('./routes/dataread'));
+app.use('/dataquery', require('./routes/dataquery'));
 
 var server = app.listen(8080, function () {
     var host = server.address().address
