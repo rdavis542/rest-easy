@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rest-easy-deployment
+  labels:
+    app: rest-easy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: rest-easy
+  template:
+    metadata:
+      labels:
+        app: rest-easy
+    spec:
+      containers:
+      - name: rest-easy
+        image: rydogg1/rest-easy:latest
+        ports:
+        - containerPort: 8443

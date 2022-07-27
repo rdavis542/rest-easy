@@ -1,0 +1,50 @@
+{
+    "student": [ 
+      
+       { 
+          "id":"01", 
+          "name": "Tom", 
+          "lastname": "Price" 
+       }, 
+      
+       { 
+          "id":"02", 
+          "name": "Beef", 
+          "lastname": "Chadwick" 
+       },
+       
+       { 
+        "id":"03", 
+        "name": "Nick", 
+        "lastname": "Thameson" 
+       },
+
+       { 
+        "id":"04", 
+        "name": "Man", 
+        "lastname": "Chesthair" 
+       }
+    ],   
+
+    "classes": [  
+      { 
+         "id":"01", 
+         "name": "Econ"     
+      }, 
+     
+      { 
+         "id":"02", 
+         "name": "Math"     
+      }, 
+      
+      { 
+         "id":"03", 
+         "name": "Science"     
+      }, 
+
+      { 
+         "id":"04", 
+         "name": "History"     
+      }
+   ]   
+}
